@@ -14,8 +14,8 @@ import RegisterModal from "./components/modals/RegisterModal";
 import SearchModal from "./components/modals/SearchModal";
 
 export const metadata: Metadata = {
-  title: "Airbnb",
-  description: "Airbnb clone",
+  title: "ShoRa",
+  description: "ShoRa - Your Home Away From Home",
 };    
 
 const font = Nunito({
