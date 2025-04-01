@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { useCallback, useState } from "react";
+import Image from "next/image";
 
 import Container from "../components/Container";
 import Heading from "../components/Heading";
@@ -85,12 +86,23 @@ const PropertiesClient: React.FC<PropertiesClientProps> = ({
                                 bg-white
                                 rounded-full
                                 p-2
+                                w-8
+                                h-8
+                                flex
+                                items-center
+                                justify-center
                                 hover:bg-neutral-100
                                 transition
                                 cursor-pointer
+                                shadow-sm
                             "
                         >
-                            Edit
+                            <Image
+                                src="/editt.svg"
+                                alt="Edit"
+                                width={20}
+                                height={20}
+                            />
                         </button>
                     </div>
                 ))}
