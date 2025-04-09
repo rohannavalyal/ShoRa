@@ -65,7 +65,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ![Home Page](https://github.com/user-attachments/assets/37706c9c-2ac3-401f-be15-977cf34252ae)
 
 #### User Menu
-![User Dropdown Menu](https://github.com/user-attachments/assets/83751073-3c02-4610-97b1-63cc708f4048)
+<img src="https://github.com/user-attachments/assets/83751073-3c02-4610-97b1-63cc708f4048" width="350" height="350" alt="User Dropdown Menu">
 
 #### My Trips
 ![My Trips Page](https://github.com/user-attachments/assets/c96928ec-c8cd-41d3-8529-bd61cdc7c61a)
