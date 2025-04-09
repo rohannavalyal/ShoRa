@@ -125,7 +125,7 @@ const UserMenu:React.FC<UserMenuProps> = ({
                             />
                             <MenuItem 
                                 onClick={() => handleMenuItemClick(rentModal.onOpen)}
-                                label='Airbnb my home'
+                                label='ShoRa your home'
                             />
                             <hr />
                             <MenuItem 

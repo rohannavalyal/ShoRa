@@ -21,6 +21,14 @@ ShoRa is a modern property rental platform built with Next.js, offering a seamle
 - **Maps**: Leaflet
 - **UI Components**: Custom components with modern design
 
+## Project Structure
+
+- `/app` - Main application code using Next.js 13 App Router
+- `/components` - Reusable React components
+- `/hooks` - Custom React hooks
+- `/prisma` - Database schema and migrations
+- `/public` - Static assets
+
 ## Getting Started
 
 1. Clone the repository
@@ -41,58 +49,49 @@ ShoRa is a modern property rental platform built with Next.js, offering a seamle
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-## Project Structure
+## Application Screenshots
 
-- `/app` - Main application code using Next.js 13 App Router
-- `/components` - Reusable React components
-- `/hooks` - Custom React hooks
-- `/prisma` - Database schema and migrations
-- `/public` - Static assets
+### Authentication
 
-## Deployment
+#### Sign In
+![Sign In Page](https://github.com/user-attachments/assets/437507f1-ea9d-4e30-a76a-2df6f1086b97)
 
-The application is optimized for deployment on Vercel:
+#### Sign Up
+![Sign Up Page](https://github.com/user-attachments/assets/191b410e-9802-4cd5-a301-de0b74ebdb18)
 
-1. Push your code to GitHub
-2. Import your repository to [Vercel](https://vercel.com)
-3. Configure your environment variables
-4. Deploy!
+### Main Features
 
-## Troubleshooting
+#### Home Page
+![Home Page](https://github.com/user-attachments/assets/37706c9c-2ac3-401f-be15-977cf34252ae)
 
-### Common Issues and Solutions
+#### User Menu
+![User Dropdown Menu](https://github.com/user-attachments/assets/83751073-3c02-4610-97b1-63cc708f4048)
 
-#### Markdown Preview Issues
-- **Syntax Errors**: If the preview isn't rendering correctly, check for:
-  - Unclosed tags or brackets
-  - Malformed frontmatter
-  - Missing line breaks between sections
-  - **Solution**: Use a Markdown editor (VS Code, Dillinger) to validate syntax
+#### My Trips
+![My Trips Page](https://github.com/user-attachments/assets/c96928ec-c8cd-41d3-8529-bd61cdc7c61a)
 
-#### Performance Issues
-- **Large File Size**: If the README contains many images or is very large:
-  - Remove unnecessary content
-  - Optimize image sizes
-  - Host large media files externally
-  - **Solution**: Keep content concise and well-organized
+#### My Favorites
+![My Favorites Page](https://github.com/user-attachments/assets/84f78989-62ca-4bd8-b394-6887d2efdde1)
 
-#### Encoding Problems
-- **Character Encoding**: If you see garbled text or strange characters:
-  - Ensure the file is saved in UTF-8 encoding
-  - Remove any invisible control characters
-  - **Solution**: Use a modern text editor (VS Code, Notepad++) to convert to UTF-8
+#### My Reservations
+![My Reservations Page](https://github.com/user-attachments/assets/838179ac-bb6f-49d0-9eab-d66e302c4c37)
 
-#### Build and Preview
-- **Development Server Issues**:
-  - Clear your browser cache
-  - Try an incognito window
-  - Restart the development server
-  - **Solution**: Run `npm run dev` in a fresh terminal
+#### My Properties
+![My Properties Page](https://github.com/user-attachments/assets/e30e39ee-45f5-49b1-9d8f-a203a821cc00)
 
-## Contributing
+### Property Details
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+<img src="https://github.com/user-attachments/assets/88af8d4c-aed8-45e8-a36f-f485d07b38ef" width="400" alt="Property Details 1">
+<img src="https://github.com/user-attachments/assets/70d36038-a194-4f2f-97f2-2b2607e76d7b" width="400" alt="Property Details 2">
+<img src="https://github.com/user-attachments/assets/a3ba927f-26b8-4b7c-a927-e2759e4fd90e" width="400" alt="Property Details 3">
+<img src="https://github.com/user-attachments/assets/22cc8426-e435-47eb-a626-4be0211d65d2" width="400" alt="Property Details 4">
+<img src="https://github.com/user-attachments/assets/0b51e27f-3f89-4e00-ac94-326a68c5bc54" width="400" alt="Property Details 5">
+<img src="https://github.com/user-attachments/assets/0899058c-dd60-4859-a974-49391a4ce6f9" width="400" alt="Property Details 6">
 
-## License
+### Search Functionality
 
-This project is licensed under the MIT License.
+![Search Bar 1](https://github.com/user-attachments/assets/fd328201-a952-4a38-ba2a-78899728848e)
+![Search Bar 2](https://github.com/user-attachments/assets/029f7782-e2ac-4dd3-9d9e-e7235e1a2c38)
+![Search Bar 3](https://github.com/user-attachments/assets/025bc41a-866b-45ab-b8a6-9fbba3fc07d9)
+
+
