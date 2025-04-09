@@ -40,6 +40,7 @@ const ListingHead: React.FC<ListingHeadProps> = ({
                         overflow-hidden
                         rounded-xl
                         relative
+                        group
                     "
                 >
                     <Image
@@ -50,44 +51,50 @@ const ListingHead: React.FC<ListingHeadProps> = ({
                     />
                     {imageSrc.length > 1 && (
                         <>
-                            <button 
+                            <div 
                                 onClick={() => setCurrentImageIndex(prev => 
                                     prev === 0 ? imageSrc.length - 1 : prev - 1
                                 )}
                                 className="
                                     absolute 
-                                    left-4 
-                                    top-1/2 
-                                    -translate-y-1/2 
-                                    bg-white/70 
-                                    rounded-full 
-                                    p-3 
-                                    hover:bg-white
+                                    left-0
+                                    top-0
+                                    w-1/4
+                                    h-full
+                                    cursor-pointer
+                                    flex
+                                    items-center
+                                    justify-start
+                                    bg-gradient-to-r
+                                    from-black/10
+                                    to-transparent
+                                    opacity-0
+                                    group-hover:opacity-100
                                     transition
-                                    text-2xl
                                 "
-                            >
-                                ←
-                            </button>
-                            <button 
+                            />
+                            <div 
                                 onClick={() => setCurrentImageIndex(prev => 
                                     prev === imageSrc.length - 1 ? 0 : prev + 1
                                 )}
                                 className="
                                     absolute 
-                                    right-4 
-                                    top-1/2 
-                                    -translate-y-1/2 
-                                    bg-white/70 
-                                    rounded-full 
-                                    p-3 
-                                    hover:bg-white
+                                    right-0
+                                    top-0
+                                    w-1/4
+                                    h-full
+                                    cursor-pointer
+                                    flex
+                                    items-center
+                                    justify-end
+                                    bg-gradient-to-l
+                                    from-black/10
+                                    to-transparent
+                                    opacity-0
+                                    group-hover:opacity-100
                                     transition
-                                    text-2xl
                                 "
-                            >
-                                →
-                            </button>
+                            />
                         </>
                     )}
                     <div className="absolute top-5 right-5">

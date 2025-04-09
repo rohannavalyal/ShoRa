@@ -91,7 +91,7 @@ const ListingCard:React.FC<ListingCardProps> = ({
                     />
                     {data.imageSrc.length > 1 && (
                         <>
-                            <button 
+                            <div 
                                 onClick={(e) => {
                                     e.stopPropagation();
                                     setCurrentImageIndex(prev => 
@@ -100,19 +100,23 @@ const ListingCard:React.FC<ListingCardProps> = ({
                                 }}
                                 className="
                                     absolute 
-                                    left-2 
-                                    top-1/2 
-                                    -translate-y-1/2 
-                                    bg-white/70 
-                                    rounded-full 
-                                    p-2 
-                                    hover:bg-white
+                                    left-0
+                                    top-0
+                                    w-1/4
+                                    h-full
+                                    cursor-pointer
+                                    flex
+                                    items-center
+                                    justify-start
+                                    bg-gradient-to-r
+                                    from-black/10
+                                    to-transparent
+                                    opacity-0
+                                    group-hover:opacity-100
                                     transition
                                 "
-                            >
-                                ←
-                            </button>
-                            <button 
+                            />
+                            <div 
                                 onClick={(e) => {
                                     e.stopPropagation();
                                     setCurrentImageIndex(prev => 
@@ -121,19 +125,23 @@ const ListingCard:React.FC<ListingCardProps> = ({
                                 }}
                                 className="
                                     absolute 
-                                    right-2 
-                                    top-1/2 
-                                    -translate-y-1/2 
-                                    bg-white/70 
-                                    rounded-full 
-                                    p-2 
-                                    hover:bg-white
+                                    right-0
+                                    top-0
+                                    w-1/4
+                                    h-full
+                                    cursor-pointer
+                                    flex
+                                    items-center
+                                    justify-end
+                                    bg-gradient-to-l
+                                    from-black/10
+                                    to-transparent
+                                    opacity-0
+                                    group-hover:opacity-100
                                     transition
                                 "
-                            >
-                                →
-                            </button>
-                            <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1">
+                            />
+                            <div className="flex gap-2 absolute bottom-2 left-1/2 -translate-x-1/2">
                                 {data.imageSrc.map((_, index) => (
                                     <button
                                         key={index}
@@ -146,6 +154,7 @@ const ListingCard:React.FC<ListingCardProps> = ({
                                             h-2 
                                             rounded-full 
                                             ${currentImageIndex === index ? 'bg-white' : 'bg-white/50'}
+                                            transition
                                         `}
                                     />
                                 ))}
