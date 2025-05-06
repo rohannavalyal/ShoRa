@@ -54,10 +54,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Authentication
 
 #### Sign In
-![Sign In Page](https://github.com/user-attachments/assets/437507f1-ea9d-4e30-a76a-2df6f1086b97)
+![Sign In Page](https://github.com/user-attachments/assets/46c5fac2-7bf0-474a-af18-ead97176f83e)
+
 
 #### Sign Up
-![Sign Up Page](https://github.com/user-attachments/assets/191b410e-9802-4cd5-a301-de0b74ebdb18)
+![Sign Up Page](https://github.com/user-attachments/assets/139ae78f-8ff1-4331-a086-79659d0161ca)
+
 
 ### Main Features
 
@@ -65,7 +67,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ![Home Page](https://github.com/user-attachments/assets/37706c9c-2ac3-401f-be15-977cf34252ae)
 
 #### User Menu
-<img src="https://github.com/user-attachments/assets/83751073-3c02-4610-97b1-63cc708f4048" width="350" height="350" alt="User Dropdown Menu">
+![User Menu](https://github.com/user-attachments/assets/7c6dc1a0-1071-4b77-990d-fdd613c8e9d6)
+
 
 #### My Trips
 ![My Trips Page](https://github.com/user-attachments/assets/c96928ec-c8cd-41d3-8529-bd61cdc7c61a)
